@@ -1,0 +1,31 @@
+{
+    "name": "oncar-test/restapiphp",
+    "description": "PILOTO 1: Um projeto de teste desenvolvido por Adair José Rossatto Commodo",
+    "keywords": ["teste", "avaliação", "rest", "oncar"],
+    "homepage": "https://www.ajrcsolucoes.com.br",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adair José Rossatto Commodo",
+            "email": "adair@ajrcsolucoes.com.br",
+            "homepage": "https://www.ajrcsolucoes.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ajrc\\": "vendor/ajrc-solucoes"
+        },
+        "files": [
+            "vendor/ajrc-solucoes/Config/Config.php"
+        ]
+    },
+    "config": {
+        "process-timeout" : 0
+    },
+    "scripts": {
+        "server":"php -S localhost:8080"
+    }
+}
