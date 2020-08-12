@@ -10,5 +10,13 @@ Piloto 1 da Interface (Frontend) com Backend pronto para criação de RESTful AP
 ## Rodar em máquina local:
 - Instale o composer [Composer](https://getcomposer.org/):
 - Dentro do diretório onde baixar os arquivos, rode o comando:
- composer install
+ Para windows:
+```sh
+C:\pathdoprojeto> composer install
+```
+
+Para linux:
+```sh
+$ sudo php composer.phar install
+```
 
