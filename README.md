@@ -42,6 +42,22 @@ $ sudo php composer.phar server
 
 Subirá um servidor em locahost:8080
 
+# Fazendo um clone do Projeto
+
+No seu terminal, caso o GIT esteja instalado, rode o comando:
+
+```sh
+$ git clone https://github.com/adaircommodo/oncar.git
+```
+
+Se você já "Upou" a base de dados para o MySQL, é só rodar o comando:
+
+```sh
+composer server
+```
+
+Vá no seu navegador e entre com localhost:8080 e isso já subirá um server para vc poder testar. (Obs.: PHP tem q estar instalado ^_^ )
+
 No mais... divirta-se!!!
 
 
